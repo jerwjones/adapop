@@ -1,0 +1,26 @@
+// Navigation
+
+.navigation {
+
+    @media screen and (min-width: $screen-md) {
+        position: fixed;
+    }
+
+
+    li {
+        margin-bottom: 0.8rem;
+
+        a {
+            display: block;
+            padding: 0.5rem;
+            color: $gray-700;
+            text-decoration: none;
+            border-left: 4px solid $light;
+
+            &:hover, &:active, &:focus {
+                border-left: 4px solid $primary;
+                color: $primary;
+            }
+        }
+    }
+}

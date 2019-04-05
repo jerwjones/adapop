@@ -1,0 +1,83 @@
+// Typography
+
+body {
+    font-family: $font-family-sans-serif;
+    color: $black;
+    font-size: 16px;
+}
+
+// Headlines
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h1, h1     { font-size: 2.5rem; }
+.h2, h2     { font-size: 2rem; }
+.h3, h3     { font-size: 1.75rem; }
+.h4, h4     { font-size: 1.5rem; }
+.h5, h5     { font-size: 1.25rem; }
+
+
+// Display
+.display-1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    @media screen and (min-width: $screen-md) {
+        font-size: 6rem;
+    }
+}
+.display-2 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    @media screen and (min-width: $screen-md) {
+        font-size: 5.5rem;
+    }
+}
+.display-3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    @media screen and (min-width: $screen-md) {
+        font-size: 4.5rem;
+    }    
+}
+.display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    @media screen and (min-width: $screen-md) {
+        font-size: 3.5rem;
+    }      
+}
+
+
+// Lead
+.lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+// Type Utilities
+code, kbd, pre, samp {
+    font-family: $font-family-monospace;
+    font-size: 1em;
+}
+
+code {
+    background: $white;
+    padding: 0.4rem;
+    color: $danger;
+    display: inline-block;
+}
+
+kbd {
+    padding: 0.2rem 0.4rem;
+    font-size: 87.5%;
+    color: $white;
+    background-color: $black;
+    border-radius: $border-radius-sm;
+}

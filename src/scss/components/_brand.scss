@@ -1,0 +1,12 @@
+// Branding
+
+.logo {
+    height: 32px;
+    fill: $primary;
+    padding: 0.75em;
+
+    &:focus, &:active, &:hover {
+        background: $primary-light;
+        fill: $primary-dark;
+    }
+}

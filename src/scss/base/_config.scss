@@ -1,0 +1,40 @@
+// CONFIG
+
+// Color
+$white:         #ffffff;
+$gray-100:      #f0f0f0;
+$gray-300:      #E0E0E0;
+$gray-500:      #9E9E9E;
+$gray-700:      #616161;
+$black:         #212121;
+
+$light:         #fdfbf7;
+$dark:          #323a45;
+
+$primary:       #0071bc;
+$primary-light: #cce2f1;
+$primary-dark:  #00385e;
+
+$danger:        #e31c3d;
+$danger-light:  #f9dede;
+$danger-dark:   #981b1e;
+
+
+$success:       #2e8540;
+$success-light: #abceb2;
+$success-dark:  #1b4f26;
+
+// Typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+// Border Radius
+$border-radius-sm:  0.2rem;
+$border-radius:     0.4rem;
+$border-radius-lg:  0.8rem;
+
+// Breakpoints
+$screen-sm:         40em;
+$screen-md:         52em;
+$screen-lg:         64em;

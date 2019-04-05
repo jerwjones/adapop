@@ -1,0 +1,28 @@
+// Tables
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    text-align: left;
+
+    td {
+        padding: 1rem;
+        vertical-align: middle;
+        border-top: 1px solid $gray-300;
+    }
+
+     th {
+        padding: 1rem;
+        vertical-align: middle;
+        border-bottom: 2px solid $gray-300;
+    }
+}
+
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
